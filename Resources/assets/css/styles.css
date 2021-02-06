@@ -34,6 +34,7 @@ body {
   padding: 25px;
   margin-top: 30px;
   margin-bottom: 20px;
+  padding-bottom: 20%;
   background-color: #fff;
 }
 
@@ -86,12 +87,45 @@ body {
   border: 3px solid black;
 }
 
-.visualizations-photo:active {
+.visualizations-photo.clicked {
   border: 3px solid black;
 }
-
 
 #pictures {padding-top: 15px;
   text-align: center;
 }
 
+.compare-photo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: block;
+  width: 400px;
+  height: 400px;
+}
+
+.compare-pages-header {
+  margin-top: 30px;
+  font-family: "Lucida Handwriting", cursive;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #3caaa5;}
+
+
+
+  #selected_picture {
+
+    width: 100%;
+    height: 100%;
+  } 
+
+  .compare-photo {
+    width: 80%;
+    height: 80%;
+    margin-bottom: 20px;
+  }
+
+  .container{
+    margin-bottom: 20px;
+  }

@@ -43,36 +43,34 @@
 </nav>
 
 <div class="container">
-  <section class="row">
+  <article class="row project_describe">
     <div class="col-md-8">
-      <article class="project_describe">
-
-        <h1 class="Summary">Summary: Latitude vs. X</h1>
+        <h1 class="Summary">Comparison: Latitude vs. X</h1>
         <hr />
-        <img src="Resources/assets/images/Fig1.png" alt="Latitude_vs_Temp" id="summary_picture"/>
-        <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-        <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
-      </article>
+        <p>Click any plot to get an in-depth analysis</p>
     </div>
-
-
-      <div class= "col-md-4">   
-          <section id="visualization-pages">
-            <div class="visualizations">
-              <h2 class="visualization-pages-header">Visualizations</h2>
-              <hr />
-              <div id="pictures">
-                <a href="temp.html"><img src="Resources/assets/images/Fig1.png" alt="Latitude_vs_Temp" class="visualizations-photo"></a>
-                <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" alt="Latitude_vs_Humidity" class="visualizations-photo"></a>
-                <a href="cloud.html"><img src="Resources/assets/images/Fig3.png" alt="Latitude_vs_Cloud" class="visualizations-photo"></a>
-                <a href="wind.html"><img src="Resources/assets/images/Fig4.png" alt="Latitude_vs_Wind" class="visualizations-photo"></a>
-              </div>
-            </div>
-          </section>
-
-        </div>
-    </section>
-  </div>
+    <div class= "col-md-6">   
+        <h2 class="compare-pages-header">vs. Max Temperature</h2>
+        <hr />
+        <a href="temp.html"><img src="Resources/assets/images/Fig1.png" alt="Latitude_vs_Temp" class="compare-photo"></a>
+    </div>
+    <div class= "col-md-6">   
+        <h2 class="compare-pages-header">vs. Humidity</h2>
+        <hr />
+        <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" alt="Latitude_vs_Humidity" class="compare-photo"></a>
+    </div>
+    <div class= "col-md-6">   
+      <h2 class="compare-pages-header">vs. Cloudiness</h2>
+      <hr />
+       <a href="cloud.html"><img src="Resources/assets/images/Fig3.png" alt="Latitude_vs_Cloud" class="compare-photo"></a>
+    </div>
+    <div class= "col-md-6">   
+      <h2 class="compare-pages-header">vs. Windiness</h2>
+      <hr />
+      <a href="wind.html"><img src="Resources/assets/images/Fig4.png" alt="Latitude_vs_Wind" class="compare-photo"></a>
+    </div>
+  </article>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
